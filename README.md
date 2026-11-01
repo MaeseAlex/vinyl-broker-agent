@@ -4,6 +4,7 @@ The [UCP](https://ucp.dev) agent profile of `vinyl-broker`, a personal tool that
 catalogs of a handful of independent record labels' Shopify stores to notify its operator of new
 releases and restocks. A human always completes any purchase.
 
-It declares one capability, catalog search, and nothing else: it never creates carts or checkouts.
+It declares two read-only capabilities, catalog search and catalog lookup (`lookup_catalog`,
+to re-read the variants it already knows), and nothing else: it never creates carts or checkouts.
 
 Contact: vinylbroker.drops@gmail.com
